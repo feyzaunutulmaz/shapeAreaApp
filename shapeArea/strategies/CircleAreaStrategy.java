@@ -1,10 +1,6 @@
 package strategies;
 
-public class CircleAreaStrategy implements AreaCalculationStrategy {
-    
-    @Override
-    public double calculateArea(Shape shape) {
-        Circle circle = (Circle) shape;
-        return circle.getArea();
-    }
-}
+
+ //if you have a Shape object that you know is actually a Circle,
+    // you can cast it to a Circle to access
+    // properties/methods specific to circles 
